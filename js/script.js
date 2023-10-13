@@ -59,7 +59,7 @@ nextBtn.addEventListener('click', function(){
 prevBtn.addEventListener('click', function(){
   
   if(activeIndex === 0){
-    activeIndex = images.length -1;
+    activeIndex = images.length - 1;
   } else {
     activeIndex -= 1;
   }
